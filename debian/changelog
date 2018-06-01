@@ -1,0 +1,8 @@
+ros-kinetic-open-manipulator-with-tb3-waffle-pi-moveit (1.0.0-1xenial) xenial; urgency=high
+
+  * updated the CHANGELOG and version to release binary packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+
