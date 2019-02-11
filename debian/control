@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-with-tb3-tools
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-ar-track-alvar-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-moveit-core, ros-kinetic-moveit-msgs, ros-kinetic-moveit-ros-planning, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-nav-msgs, ros-kinetic-open-manipulator-msgs, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-rospy, ros-kinetic-smach, ros-kinetic-smach-ros, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Homepage: http://wiki.ros.org/open_manipulator_with_tb3_tools
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-with-tb3-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-amcl, ros-kinetic-ar-track-alvar-msgs, ros-kinetic-geometry-msgs, ros-kinetic-joint-state-publisher, ros-kinetic-map-server, ros-kinetic-move-base, ros-kinetic-moveit-core, ros-kinetic-moveit-msgs, ros-kinetic-moveit-ros-planning, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-nav-msgs, ros-kinetic-open-manipulator-msgs, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-rospy, ros-kinetic-smach, ros-kinetic-smach-ros, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Description: The tools package(including SLAM, Navigation, Manipulation) for OpenManipulator with TurtleBot3
