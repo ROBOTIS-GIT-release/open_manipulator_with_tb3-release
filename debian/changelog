@@ -1,0 +1,39 @@
+ros-melodic-open-manipulator-with-tb3 (1.1.0-1bionic) bionic; urgency=high
+
+  * updated the CHANGELOG and version to release binary packages
+  * added gazebo and moveit config
+  * deleted world
+  * updated to sync for new open_manipulator_package #7 <https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3/issues/7>
+  * updated inertia params
+  * added params for ar_marker
+  * added launch file to run demo
+  * added gripper controller
+  * added smach and smach_ros
+  * added waffle model, ar marker argument, ar tracker, prefix
+  * added joint control for platform
+  * added filter
+  * changed logerr to logwarn
+  * changed joint trajectory variable
+  * updated params releated to odom
+  * added waffle model
+  * added new moveit configuration
+  * modified position_only_ik
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-with-tb3 (1.0.1-1bionic) bionic; urgency=high
+
+  * added dependency package option
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Sun, 03 Jun 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-with-tb3 (1.0.0-1bionic) bionic; urgency=high
+
+  * updated the CHANGELOG and version to release binary packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+
