@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-with-tb3-tools
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-ar-track-alvar-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-moveit-core, ros-melodic-moveit-msgs, ros-melodic-moveit-ros-planning, ros-melodic-moveit-ros-planning-interface, ros-melodic-nav-msgs, ros-melodic-open-manipulator-msgs, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-rospy, ros-melodic-smach, ros-melodic-smach-ros, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Homepage: http://wiki.ros.org/open_manipulator_with_tb3_tools
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-with-tb3-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-amcl, ros-melodic-ar-track-alvar-msgs, ros-melodic-geometry-msgs, ros-melodic-joint-state-publisher, ros-melodic-map-server, ros-melodic-move-base, ros-melodic-moveit-core, ros-melodic-moveit-msgs, ros-melodic-moveit-ros-planning, ros-melodic-moveit-ros-planning-interface, ros-melodic-nav-msgs, ros-melodic-open-manipulator-msgs, ros-melodic-robot-state-publisher, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-rospy, ros-melodic-smach, ros-melodic-smach-ros, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Description: The tools package(including SLAM, Navigation, Manipulation) for OpenManipulator with TurtleBot3
