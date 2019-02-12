@@ -1,0 +1,25 @@
+ros-melodic-open-manipulator-with-tb3-description (1.1.0-2stretch) stretch; urgency=high
+
+  * added gazebo and moveit config
+  * deleted world
+  * updated to sync for new open_manipulator_package #7 <https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3/issues/7>
+  * updated inertia params
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-with-tb3-description (1.0.1-2stretch) stretch; urgency=high
+
+  * added dependency package option
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Sun, 03 Jun 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-with-tb3-description (1.0.0-2stretch) stretch; urgency=high
+
+  * updated the CHANGELOG and version to release binary packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+
